@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Farmacia Carol</string>
+    <string name="working_hours">8:00 a.m - 11:00 p.m</string>
+    <string name="phone_numer">(829)-779-2174</string>
+    <string name="description_phone_logo">Phone logo</string>
+    <string name="description_location_logo">Location logo</string>
+    <string name="description_logo">Logo</string>
+    <string name="address">Carretera Luperón, Plaza Master, Santiago</string>
 </resources>
