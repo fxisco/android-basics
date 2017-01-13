@@ -30,6 +30,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/scoreA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -37,29 +38,37 @@
                 android:text="@string/title_zero"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimary"
-                android:textSize="50dp" />
+                android:textSize="50sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="addPointToScore"
+                android:tag="a,6"
                 android:text="@string/title_button_6_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:onClick="addPointToScore"
+                android:tag="a,3"
                 android:text="@string/title_button_3_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:onClick="addPointToScore"
+                android:tag="a,2"
                 android:text="@string/title_button_2_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:onClick="addPointToScore"
+                android:tag="a,1"
                 android:text="@string/title_button_1_points" />
         </LinearLayout>
 
@@ -85,6 +94,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/scoreB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -92,29 +102,37 @@
                 android:text="@string/title_zero"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimary"
-                android:textSize="50dp" />
+                android:textSize="50sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="addPointToScore"
+                android:tag="b,6"
                 android:text="@string/title_button_6_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:onClick="addPointToScore"
+                android:tag="b,3"
                 android:text="@string/title_button_3_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:onClick="addPointToScore"
+                android:tag="b,2"
                 android:text="@string/title_button_2_points" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:onClick="addPointToScore"
+                android:tag="b,1"
                 android:text="@string/title_button_1_points" />
         </LinearLayout>
     </LinearLayout>
@@ -128,6 +146,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="resetPunctuation"
             android:text="@string/title_button_reset" />
     </LinearLayout>
 
