@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <string name="quiz_name">CCNA BASIC QUIZ</string>
+    <string name="question_1">1. Which device performs the function of determining the path that messages should take through internetworks?</string>
+    <string name="question_1_option_1">a router</string>
+    <string name="question_1_option_2">a firewall</string>
+    <string name="question_1_option_3">a web server</string>
+
+    <string name="question_2">2. What are two functions of end devices on a network? (Choose two.)</string>
+    <string name="question_2_option_1">They originate the data that flows through the network.</string>
+    <string name="question_2_option_2">They direct data over alternate paths in the event of link failures.</string>
+    <string name="question_2_option_3">They filter the flow of data to enhance security.</string>
+    <string name="question_2_option_4">They are the interface between humans and the communication network.</string>
+
+    <string name="question_3">3. What type of network must a home user access in order to do online shopping?</string>
+
+    <string name="question_4">4. Which two connection options provide an always-on, high-bandwidth Internet connection to computers in a home office? (Choose two.)</string>
+    <string name="question_4_option_1">cellular</string>
+    <string name="question_4_option_2">DSL</string>
+    <string name="question_4_option_3">satellite</string>
+    <string name="question_4_option_4">cable</string>
+
+    <string name="button_submit">Submit</string>
+    <string name="button_clear">Clear</string>
+
 </resources>
