@@ -5,4 +5,15 @@
     <string name="songs">Songs</string>
     <string name="albums">Albums</string>
     <string name="artists">Artist</string>
+
+    <string name="song_placeholder">1. Song Name</string>
+    <string name="song_lirycs_placeholder">Lirycs</string>
+    <string name="album_placeholder">Album Name</string>
+    <string name="album_songs_placeholder">Albums song</string>
+    <string name="playlist_placeholder">Playlist Name</string>
+    <string name="playlist_songs_placeholder">Playlist songs</string>
+    <string name="arstist_placeholder">Artist Name</string>
+    <string name="arstist_songs_placeholder">Artist Songs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

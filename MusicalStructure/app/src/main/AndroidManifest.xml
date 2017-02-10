@@ -10,10 +10,15 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ui.home.HomeActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.album.AlbumActivity" />
+        <activity android:name=".ui.artist.ArtistActivity" />
+        <activity android:name=".ui.playlist.PlaylistActivity" />
+        <activity android:name=".ui.songs.SongActivity"></activity>
     </application>
 
 </manifest>
