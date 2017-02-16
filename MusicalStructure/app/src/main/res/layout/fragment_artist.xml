@@ -4,11 +4,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.francisco.musicalstructure.ui.artist.ArtistFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/artist_text_view"
-        style="@style/listItemStyle"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/arstist_placeholder" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/artist_guideline" />
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            style="@style/listItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arstist_placeholder" />
+    </LinearLayout>
 </FrameLayout>

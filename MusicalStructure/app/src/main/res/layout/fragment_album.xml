@@ -4,10 +4,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.francisco.musicalstructure.ui.album.AlbumFragment">
 
-    <TextView
-        android:id="@+id/album_text_view"
-        style="@style/listItemStyle"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/album_placeholder" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/album_guideline" />
+
+        <TextView
+            android:id="@+id/album_text_view"
+            style="@style/listItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/album_placeholder" />
+    </LinearLayout>
 </FrameLayout>

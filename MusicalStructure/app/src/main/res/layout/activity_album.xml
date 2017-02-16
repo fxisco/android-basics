@@ -11,5 +11,5 @@
         style="@style/listItemStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/arstist_songs_placeholder" />
+        android:text="@string/album_songs_placeholder" />
 </RelativeLayout>
